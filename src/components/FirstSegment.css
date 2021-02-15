@@ -1,0 +1,23 @@
+.heading1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+}
+
+.name1{
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;
+}
+
+.headdiv{
+    text-align:center;
+}
+.name{
+    margin-top: 3%;
+    font-family: 'Rock Salt', cursive;
+    font-size: 3rem;
+
+}
+.dev{
+    margin:4% 0;
+    width:50%;
+}

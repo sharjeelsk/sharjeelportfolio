@@ -1,0 +1,23 @@
+img{
+    width:5vw;
+ }
+ 
+ .logoimg{
+     width:3vw;
+ }
+ 
+ .navbarclass{
+     font-size:1.25rem;
+     margin: 0 15%;
+ }
+ .navbar-nav li{
+     padding:0 .25rem;
+ }
+ 
+ .navbar{
+     background-color: transparent !important;
+ }
+
+ #nav{
+     color:"white"
+ }
