@@ -21,3 +21,87 @@
     margin:4% 0;
     width:50%;
 }
+
+.bar1{
+    position: absolute;
+    top:18%;
+    opacity:0.3;
+    left:10%;
+    animation-name:bracket1;
+    animation-duration:2s;
+    animation-timing-function: linear;
+    animation-delay: .2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    filter: invert(100%);
+}
+.bar2{
+    position: absolute;
+    top:18%;
+    opacity:0.3;
+    right:10%;
+    animation-name:bracket2;
+    animation-duration:2s;
+    animation-timing-function: linear;
+    animation-delay: .2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    filter: invert(100%);
+}
+
+@keyframes bracket1{
+    0%{
+        left:10%;
+    }
+    20%{
+        left:4%;
+    }
+    30%{
+        left:2%;
+    }
+    40%{
+        left:4%;
+    }
+    
+    50%{
+        left:6%;
+    }
+    70%{
+        left:10%;
+    }
+   
+}
+
+@keyframes bracket2{
+    0%{
+        right:10%;
+    }
+    20%{
+        right:4%;
+    }
+    30%{
+        right:2%;
+    }
+    40%{
+        right:4%;
+    }
+    
+    50%{
+        right:6%;
+    }
+    70%{
+        right:10%;
+    }
+    /* 50%{
+        right:6%;
+    }
+    60%{
+        right:7%;
+    }
+    70%{
+        right:8%;
+    }
+    100%{
+        right:10%;
+    } */
+}

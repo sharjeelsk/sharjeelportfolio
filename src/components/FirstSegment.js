@@ -2,9 +2,13 @@ import React from 'react'
 import Header from './Header'
 import "./FirstSegment.css"
 import Dev from '../images/undraw_programming_2svr.svg'
+import bar1 from '../images/animation/leftbrace.png'
+import bar2 from '../images/animation/rightbrace.png'
 const FirstSegment = () => {
     return (
         <div>
+            <img src={bar1} alt="sorry" class="bar1" />
+            <img src={bar2} alt="sorry" class="bar2" />
               <Header />
       <div style={{margin:"8% 15%",color:"white"}}>
           <div class="headdiv">

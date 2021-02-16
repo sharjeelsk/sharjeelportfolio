@@ -1,0 +1,17 @@
+.rootseconddiv{
+    background-color: #6930c3;
+    text-align: center;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    padding:5% 20%;
+}
+
+.secondpara{
+    font-weight:lighter;
+    font-size: 1.5rem;
+}
+
+.secondheading{
+    font-weight:medium;
+    font-size: 2rem;
+}

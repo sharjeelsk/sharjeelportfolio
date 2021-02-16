@@ -1,0 +1,42 @@
+.thirdrootdiv{
+    background: #252525;
+    color:white;
+    text-align: center;
+    margin:12% auto;
+    
+    
+}
+.thirdcarddiv{
+    background: #252525;
+    border:4px solid #64dfdf;
+    border-radius: 20px;
+    padding:4% 2%;
+    text-align: center;
+    margin:8% auto;
+    transition: 0.5s;
+
+}
+
+.thirdcarddiv:hover {
+    box-shadow:4px 4px 30px #6930c3, -4px -4px 30px #6930c3;
+    
+
+}
+
+.projectdiv{
+    visibility:hidden;
+}
+
+.thirdcarddiv:hover .projectdiv{
+    visibility:visible;
+
+}
+.projectheading{
+    font-family: 'Ranchers', cursive;
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+/* .thirdcarddiv:hover .projectheading{
+    margin-top:-10%;
+
+} */

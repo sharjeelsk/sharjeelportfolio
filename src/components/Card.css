@@ -1,0 +1,11 @@
+.rootcard{
+    background-color:#252525;
+    color:white;
+    text-align:center;
+    height:100%;
+    margin:auto 3%;
+    position: relative;
+    padding:10% 5%;
+    border-radius:2px;
+    box-shadow: 1px 1px 20px #6930c3, -1px -1px 20px #6930c3;
+}
