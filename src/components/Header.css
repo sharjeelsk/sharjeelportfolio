@@ -15,9 +15,21 @@ img{
  }
  
  .navbar{
-     background-color: transparent !important;
+     background-color: inherit !important;
  }
 
  #nav{
      color:"white"
  }
+
+ .logo{
+     filter:contrast(1.5)
+ }
+
+.nav-link{
+    color:grey
+}
+
+li{
+    color:purple;
+}

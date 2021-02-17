@@ -1,10 +1,16 @@
 import React from 'react'
 import "./CardGroup.css"
 import Card from './Card'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 
 const CardGroup = () => {
-
+    React.useEffect(()=>{
+        Aos.init({
+            duration:1000
+        })
+    },[])
 const card1 = {
     title:"Web Developer",
     paragraph1:"I Design various type of websites such as portfolio, e-commerce, social-media etc.",
@@ -39,6 +45,9 @@ const card3 = {
     ],
 }
     return (
+        <section>
+    <h2  data-aos="zoom-out-up" style={{color:"white",  textAlign:"center",fontSize:"3rem",marginTop:"10%",fontFamily:" 'Ranchers', cursive"}}>SKILL SET</h2>
+            
         <div class="row cardroot">
 
 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
@@ -54,6 +63,7 @@ const card3 = {
 </div>
 
         </div>
+        </section>
     );
 }
 

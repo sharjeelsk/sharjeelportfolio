@@ -24,7 +24,7 @@
 
 .bar1{
     position: absolute;
-    top:18%;
+    top:25%;
     opacity:0.3;
     left:10%;
     animation-name:bracket1;
@@ -37,7 +37,7 @@
 }
 .bar2{
     position: absolute;
-    top:18%;
+    top:25%;
     opacity:0.3;
     right:10%;
     animation-name:bracket2;
