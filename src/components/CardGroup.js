@@ -46,7 +46,7 @@ const card3 = {
 }
     return (
         <section>
-    <h2  data-aos="zoom-out-up" style={{color:"white",  textAlign:"center",fontSize:"3rem",marginTop:"10%",fontFamily:" 'Ranchers', cursive"}}>SKILL SET</h2>
+    <h2  data-aos="zoom-out-up" style={{color:"white",  textAlign:"center",fontSize:"3rem",marginTop:"10%",fontFamily:" 'Ranchers', cursive"}}>- SKILL SET -</h2>
             
         <div class="row cardroot">
 

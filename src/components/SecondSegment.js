@@ -12,7 +12,10 @@ const SecondSegment = () => {
     return (
         <div class="rootseconddiv">
         <h3 class="secondheading" data-aos="fade-down">Hey, This is <span style={{color:"lightblue"}} data-aos="fade-down">Sharjeel</span>. It's a pleasure to meet you</h3>
-        <p class="secondpara" data-aos="fade-up">Tempor irure elit qui excepteur elit cillum incididunt labore. Proident incididunt dolore tempor aliqua cupidatat exercitation excepteur nisi ex id sunt non adipisicing. Reprehenderit proident ex voluptate ex quis reprehenderit deserunt duis Lorem duis proident. Proident incididunt non Lorem irure sit duis in adipisicing cupidatat aute veniam nisi deserunt.</p>
+        <p class="secondpara" data-aos="fade-up">
+        I am a MERN stack developer i.e mongo, express, react and node. I was interested in this domain of computers since as I was 4. I started coding at the age of 16 before that I used to create graphic designs
+        . I am a consistent learner i.e I love to learn new stuff and Coding is my passion and I love to do it without any sort of tiredness whatsover !
+        </p>
         </div>
     );
 }

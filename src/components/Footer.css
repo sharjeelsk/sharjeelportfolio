@@ -1,6 +1,7 @@
 footer{
-    height: 40vh;
+    height: 100%;
     text-align: center;
+    width: 100%;
 }
 
 .footerheading{
@@ -26,4 +27,23 @@ footer{
     transition:.5s;
     transform:translateY(-3px) ;
 
+}
+
+.icons{
+    padding-bottom: 5%;
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .icons{
+        padding-bottom: 20%;
+    }
+
+}
+@media (max-width: 576px) {
+    .icons{
+        padding-bottom: 20%;
+    }
 }

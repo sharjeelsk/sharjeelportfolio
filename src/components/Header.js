@@ -9,7 +9,7 @@ const Header = (props) => {
 	<div class="container-fluid">
 		<a class="navbar-brand"  style={{color:"white"}} href="/"><img class="logo" src={logo} alt="logo" /></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-		<span class="navbar-toggler-icon"></span>
+		<span class="navbar-toggler-icon" ></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav ml-auto" id="nav">

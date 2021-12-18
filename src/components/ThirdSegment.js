@@ -4,7 +4,6 @@ import "./ThirdSegment.css"
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
-
 const ThirdSegment = () => {
     React.useEffect(()=>{
         Aos.init({
@@ -13,7 +12,7 @@ const ThirdSegment = () => {
     },[])
     return (
         <div class="thirdrootdiv">
-             <h2  data-aos="zoom-out-up" style={{color:"white",  textAlign:"center",fontSize:"3rem",marginTop:"10%"}} class="head">PROJECTS</h2>
+             <h2  data-aos="zoom-out-up" style={{color:"white",  textAlign:"center",fontSize:"3rem",marginTop:"10%"}} class="head">- PROJECTS -</h2>
         <div class="row rowdiv">
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 thirdcarddiv" id="first"> 
             <h3 class="projectheading"  data-aos="zoom-out-up">BlogWep</h3>

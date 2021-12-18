@@ -10,9 +10,11 @@ const Form = () => {
     const [name, setName] = React.useState("")
     const [email, setEmail] = React.useState("")
     const [message, setMessage] = React.useState("")
+    const [submit, setSubmit] = React.useState("")
     const handleSubmit = (e)=>{
         e.preventDefault()
         console.log(name,email,message)
+        setSubmit("Submitted")
     }
     return (
         <div>
@@ -43,6 +45,7 @@ const Form = () => {
             </div>
             <div class="fbutton">
             <button type="Submit" class="btn btn-outline-primary" style={{padding:"1% 4%",marginTop:"3%",fontSize:"1.4rem"}}>Submit</button>
+            <h3 class="ui red header" style={{fontFamily:"consolas"}}>{submit}</h3>
             </div>
             </form>
             
